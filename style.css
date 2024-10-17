@@ -8,8 +8,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    color: whitesmoke;
-    z-index: -1;
+    color: black;
+    z-index: -2;
 }
 
 .RegText {
@@ -31,4 +31,20 @@
     z-index: 1;
     align-self: center;
     transform: translate(50%, 0%);
+}
+
+.img1 {
+    width: 20px;
+    height: 40px;
+    z-index: 22;
+    background-image: url(images/image1.png);
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 100%;
+    
 }
